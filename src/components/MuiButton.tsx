@@ -12,7 +12,7 @@ import FormatItalicIcon from "@mui/icons-material/FormatItalic";
 import FormatUnderlinedIcon from "@mui/icons-material/FormatUnderlined";
 import { useState } from "react";
 
-export const MuiButton = () => {
+export const MUIButton = () => {
   const [formats, setFormats] = useState<string | null>(null);
   console.log(formats);
   const handleFormatsChange = (
