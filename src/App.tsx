@@ -2,9 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { MuiTypography } from './components/MuiTypography';
-import { MuiButton } from './components/MuiButton';
+import { MUIButton } from './components/MUIButton';
 import { MUITextField } from './components/MUITextField'
 import { MUISelect } from './components/MUISelect';
+import {MUIRadioButton} from './components/MUIRadioButton';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <MuiButton /> */}
       {/* <MUITextField /> */}      
       {/* <MUITextField /> */}
-      <MUISelect />
+      {/* <MUISelect /> */}
+      {<MUIRadioButton />}
     </div>
   );
 }
