@@ -11,6 +11,7 @@ import { MUISwitch } from "./components/MUISwitch";
 import { MUIRating } from "./components/MUIRating";
 import { MUIAutocomplete } from "./components/MUIAutocomplete";
 import { MUIList } from "./components/MuiList";
+import { MuiLayout } from "./components/MuiLayout";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <MUISwitch /> */}
       {/* <MUIRating /> */}
       {/* <MUIAutocomplete /> */}
-      <MUIList />
+      {/* <MUIList /> */}
+      <MuiLayout />
     </div>
   );
 }
