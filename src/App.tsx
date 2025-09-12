@@ -12,6 +12,7 @@ import { MUIRating } from "./components/MUIRating";
 import { MUIAutocomplete } from "./components/MUIAutocomplete";
 import { MUIList } from "./components/MuiList";
 import { MuiLayout } from "./components/MuiLayout";
+import { MuiCard } from "./components/MuiCard";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <MUIRating /> */}
       {/* <MUIAutocomplete /> */}
       {/* <MUIList /> */}
-      <MuiLayout />
+      {/* <MuiLayout /> */}
+      <MuiCard />
     </div>
   );
 }
