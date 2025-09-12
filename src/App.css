@@ -4,7 +4,11 @@
   justify-content: center;
   padding-top: 20px;
 } */
- .App {
+.body{
+ background-color: #eeeeee;
+} 
+
+.App {
   padding: 40px;
  }
 
