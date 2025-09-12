@@ -13,6 +13,7 @@ import { MUIAutocomplete } from "./components/MUIAutocomplete";
 import { MUIList } from "./components/MuiList";
 import { MuiLayout } from "./components/MuiLayout";
 import { MuiCard } from "./components/MuiCard";
+import { MuiAccordion } from "./components/MuiAccordion";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <MUIAutocomplete /> */}
       {/* <MUIList /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </div>
   );
 }
